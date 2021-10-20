@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="pkgdemo(failed)">
     <classes>
-      <class name="Demo.toSearchKudosTest">
+      <class name="Demo.recentKudosTest">
         <methods>
+          <include name="tFive"/>
+          <include name="closeBrowser"/>
           <include name="initialize"/>
-          <include name="tFour"/>
+        </methods>
+      </class> <!-- Demo.recentKudosTest -->
+      <class name="Demo.OtherActivity">
+        <methods>
+          <include name="tSixofThree"/>
+          <include name="testCSelfkudos"/>
+          <include name="TSix"/>
+          <include name="tSixofFour"/>
+          <include name="initialize"/>
+          <include name="tSixofTwo"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Demo.toSearchKudosTest -->
+      </class> <!-- Demo.OtherActivity -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- pkgdemo(failed) -->
+</suite> <!-- Failed suite [Suite] -->

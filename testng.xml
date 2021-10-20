@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test">
+
+  <test name="TestLogin">
   
     <classes>
       <class name="Demo.ToTestLoginPage"/>
-
+	</classes>
+ </test>
+ 
+ <test name="TestDisplay">
+    <classes>
      <class name="Demo.ToDisplayTest"/>
-    </classes>
-    
-  </test> <!-- Test -->
+     </classes>
+ 
+  </test>
+ <test name="TestSearch">
+ 	 <classes>
+      <class name="Demo.toSearchKudosTest"/>
+          </classes>
+ </test>
+ <test name="TestSend">
+ 	 <classes>
+      <class name="Demo.toSendKudos"/>
+     
+      </classes>
+ </test>
+ 
+  <test name="TestActivity">
+ 	 <classes>
+      <class name ="Demo.OtherActivity"/>
+        </classes>
+ </test>
+   <test name="TestRecent">
+ 	 <classes>
+      <class name="Demo.recentKudosTest"/>
+      
+ </classes>
+ </test> <!-- Test -->
 </suite> <!-- Suite -->
+

@@ -40,6 +40,9 @@ public class KudosSearchPage {
 	public WebElement getmediaBox() {
 		return driver.findElement(fullmedia);
 	}
+	public By waitname() {
+		return fname;
+	}
 	
 	public WebElement getFname() {
 		return driver.findElement(fname);
@@ -48,9 +51,13 @@ public class KudosSearchPage {
 	public WebElement getSmallText() {
 		return driver.findElement(text);
 	}
+	
 	public WebElement FUsername() {
 		
 		return driver.findElement(name);
+	}
+	public By waitsend() {
+		return esend;
 	}
 
 }

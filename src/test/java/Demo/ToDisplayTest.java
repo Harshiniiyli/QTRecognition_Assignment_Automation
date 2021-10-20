@@ -2,9 +2,11 @@ package Demo;
 
 import java.io.IOException;
 
+
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
+
 
 import BasicPackage.BaseMain;
 import PkgForObject.DisplayPage;
@@ -14,6 +16,7 @@ public class ToDisplayTest extends BaseMain {
 
 	@Test
 	public void testTwo() throws IOException {
+		
 		driver = initializingDRiver();
 		driver.get(prop.getProperty("url"));
 		
@@ -22,12 +25,14 @@ public class ToDisplayTest extends BaseMain {
 		lp.getpassword().sendKeys("P@ssw0rd");
 		lp.submit().click();
 		
+		//LoginPage lp = new LoginPage(driver);
 		DisplayPage dp = new DisplayPage(driver);
 		System.out.println(lp.title());
 		lp.title().equals("QTRecognition");
 		System.out.println(dp.showName().getText());
 		Assert.assertTrue(dp.showName().isDisplayed());
 		Assert.assertTrue(dp.showImg().isDisplayed());
+
 	}
 	
 	@AfterTest
