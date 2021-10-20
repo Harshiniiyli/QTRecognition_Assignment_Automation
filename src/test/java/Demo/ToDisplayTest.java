@@ -14,6 +14,10 @@ import PkgForObject.LoginPage;
 
 public class ToDisplayTest extends BaseMain {
 
+	/*
+	 * Testcase to check if username and profile image is displayed
+	 * 
+	 */
 	@Test
 	public void testTwo() throws IOException {
 		

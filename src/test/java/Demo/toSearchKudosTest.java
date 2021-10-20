@@ -18,7 +18,10 @@ import PkgForObject.LoginPage;
 
 public class toSearchKudosTest extends BaseMain {
 
-	
+	/*
+	 * to initialize browser
+	 * 
+	 */
 	@BeforeTest
 	public void initialize() throws IOException
 	{
@@ -26,6 +29,10 @@ public class toSearchKudosTest extends BaseMain {
 		driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
 	}
 	
+	/*
+	 * Testcase to search kudos from activity page
+	 * 
+	 */
 	@Test
 	public void tFour() throws InterruptedException {
 		
@@ -43,7 +50,7 @@ public class toSearchKudosTest extends BaseMain {
 		ksp.getSearchButton().click();
 		
 		//Thread.sleep(2000);
-		String Ename= "Madhuri Kulkarni  (madhuri.kulkarni@qualitestgroup.com)";
+		String Ename= "Madhuri Kulkarniï¿½ï¿½(madhuri.kulkarni@qualitestgroup.com)";
 		
 		w.until(ExpectedConditions.visibilityOfElementLocated(ksp.waitsend()));
 		ksp.senEmail().sendKeys(Ename);

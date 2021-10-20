@@ -23,7 +23,11 @@ import PkgForObject.SendKudosPage;
 
 public class OtherActivity extends BaseMain {
 
-
+	
+	/*To initialize the browser and login
+	 * 
+	 * 
+	 */
 	@BeforeTest
 	public void initialize() throws IOException
 	{
@@ -37,6 +41,11 @@ public class OtherActivity extends BaseMain {
 		lp.submit().click();
 
 	}
+	
+	/*
+	 * Testcase to check kudos from me
+	 * 
+	 */
 	@Test
 	public void TSix() throws IOException, InterruptedException {
 		OthersPage op = new OthersPage(driver);
@@ -66,6 +75,10 @@ public class OtherActivity extends BaseMain {
 	}
 	}
 	
+	/*
+	 * Test case to check kudos to me
+	 * 
+	 */
 	@Test
 	public void tSixofTwo() throws InterruptedException {
 		OthersPage op = new OthersPage(driver);
@@ -92,6 +105,10 @@ public class OtherActivity extends BaseMain {
 
 	}
 	
+	/*
+	 * Testcase to check activity page
+	 * 
+	 */
 	@Test
 	public void tSixofThree() throws InterruptedException {
 		OthersPage op = new OthersPage(driver);
@@ -105,6 +122,10 @@ public class OtherActivity extends BaseMain {
 		System.out.println(ksp.getmediaBox().isDisplayed());
 	}
 	
+	/*
+	 * testcase to check kudos count update
+	 * 
+	 */
 	@Test
 	public void tSixofFour() {
 		OthersPage op = new OthersPage(driver);
@@ -112,6 +133,10 @@ public class OtherActivity extends BaseMain {
 		
 	}
 	
+	/*
+	 * Test case to send kudos to self
+	 * 
+	 */
 	@Test
 	public void testCSelfkudos() throws InterruptedException {
 		OthersPage op = new OthersPage(driver);

@@ -2,116 +2,116 @@
 <testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="151502" started-at="2021-10-20T07:55:44Z" finished-at="2021-10-20T07:58:16Z">
+  <suite name="Suite" duration-ms="176308" started-at="2021-10-20T08:22:51Z" finished-at="2021-10-20T08:25:47Z">
     <groups>
     </groups>
-    <test name="TestLogin" duration-ms="15978" started-at="2021-10-20T07:55:44Z" finished-at="2021-10-20T07:56:00Z">
+    <test name="TestLogin" duration-ms="25839" started-at="2021-10-20T08:22:51Z" finished-at="2021-10-20T08:23:17Z">
       <class name="Demo.ToTestLoginPage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Demo.ToTestLoginPage@3c153a1]" name="initialize" is-config="true" duration-ms="3858" started-at="2021-10-20T13:25:44Z" finished-at="2021-10-20T13:25:48Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Demo.ToTestLoginPage@3c153a1]" name="initialize" is-config="true" duration-ms="6964" started-at="2021-10-20T13:52:51Z" finished-at="2021-10-20T13:52:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testInvalid()[pri:0, instance:Demo.ToTestLoginPage@3c153a1]" name="testInvalid" duration-ms="5173" started-at="2021-10-20T13:25:48Z" finished-at="2021-10-20T13:25:53Z">
+        <test-method status="PASS" signature="testInvalid()[pri:0, instance:Demo.ToTestLoginPage@3c153a1]" name="testInvalid" duration-ms="6883" started-at="2021-10-20T13:52:58Z" finished-at="2021-10-20T13:53:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalid -->
-        <test-method status="PASS" signature="testOne()[pri:0, instance:Demo.ToTestLoginPage@3c153a1]" name="testOne" duration-ms="5842" started-at="2021-10-20T13:25:53Z" finished-at="2021-10-20T13:25:59Z">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:Demo.ToTestLoginPage@3c153a1]" name="testOne" duration-ms="8940" started-at="2021-10-20T13:53:05Z" finished-at="2021-10-20T13:53:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Demo.ToTestLoginPage@3c153a1]" name="closeBrowser" is-config="true" duration-ms="1096" started-at="2021-10-20T13:25:59Z" finished-at="2021-10-20T13:26:00Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Demo.ToTestLoginPage@3c153a1]" name="closeBrowser" is-config="true" duration-ms="3027" started-at="2021-10-20T13:53:14Z" finished-at="2021-10-20T13:53:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Demo.ToTestLoginPage -->
     </test> <!-- TestLogin -->
-    <test name="TestDisplay" duration-ms="12769" started-at="2021-10-20T07:56:00Z" finished-at="2021-10-20T07:56:13Z">
+    <test name="TestDisplay" duration-ms="21824" started-at="2021-10-20T08:23:17Z" finished-at="2021-10-20T08:23:39Z">
       <class name="Demo.ToDisplayTest">
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:Demo.ToDisplayTest@501edcf1]" name="testTwo" duration-ms="12677" started-at="2021-10-20T13:26:00Z" finished-at="2021-10-20T13:26:13Z">
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:Demo.ToDisplayTest@501edcf1]" name="testTwo" duration-ms="20619" started-at="2021-10-20T13:53:17Z" finished-at="2021-10-20T13:53:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTwo -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Demo.ToDisplayTest@501edcf1]" name="closeBrowser" is-config="true" duration-ms="91" started-at="2021-10-20T13:26:13Z" finished-at="2021-10-20T13:26:13Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Demo.ToDisplayTest@501edcf1]" name="closeBrowser" is-config="true" duration-ms="1205" started-at="2021-10-20T13:53:37Z" finished-at="2021-10-20T13:53:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Demo.ToDisplayTest -->
     </test> <!-- TestDisplay -->
-    <test name="TestSearch" duration-ms="27357" started-at="2021-10-20T07:56:13Z" finished-at="2021-10-20T07:56:40Z">
+    <test name="TestSearch" duration-ms="28028" started-at="2021-10-20T08:23:39Z" finished-at="2021-10-20T08:24:07Z">
       <class name="Demo.toSearchKudosTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Demo.toSearchKudosTest@1df82230]" name="initialize" is-config="true" duration-ms="1935" started-at="2021-10-20T13:26:13Z" finished-at="2021-10-20T13:26:15Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Demo.toSearchKudosTest@1df82230]" name="initialize" is-config="true" duration-ms="2140" started-at="2021-10-20T13:53:39Z" finished-at="2021-10-20T13:53:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="tFour()[pri:0, instance:Demo.toSearchKudosTest@1df82230]" name="tFour" duration-ms="25337" started-at="2021-10-20T13:26:15Z" finished-at="2021-10-20T13:26:40Z">
+        <test-method status="PASS" signature="tFour()[pri:0, instance:Demo.toSearchKudosTest@1df82230]" name="tFour" duration-ms="25703" started-at="2021-10-20T13:53:41Z" finished-at="2021-10-20T13:54:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tFour -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Demo.toSearchKudosTest@1df82230]" name="closeBrowser" is-config="true" duration-ms="85" started-at="2021-10-20T13:26:40Z" finished-at="2021-10-20T13:26:40Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Demo.toSearchKudosTest@1df82230]" name="closeBrowser" is-config="true" duration-ms="183" started-at="2021-10-20T13:54:07Z" finished-at="2021-10-20T13:54:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Demo.toSearchKudosTest -->
     </test> <!-- TestSearch -->
-    <test name="TestSend" duration-ms="43121" started-at="2021-10-20T07:56:40Z" finished-at="2021-10-20T07:57:23Z">
+    <test name="TestSend" duration-ms="44684" started-at="2021-10-20T08:24:07Z" finished-at="2021-10-20T08:24:51Z">
       <class name="Demo.toSendKudos">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Demo.toSendKudos@7fc2413d]" name="initialize" is-config="true" duration-ms="3378" started-at="2021-10-20T13:26:40Z" finished-at="2021-10-20T13:26:44Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Demo.toSendKudos@7fc2413d]" name="initialize" is-config="true" duration-ms="3334" started-at="2021-10-20T13:54:07Z" finished-at="2021-10-20T13:54:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testCEmptyComents()[pri:0, instance:Demo.toSendKudos@7fc2413d]" name="testCEmptyComents" duration-ms="39609" started-at="2021-10-20T13:26:44Z" finished-at="2021-10-20T13:27:23Z">
+        <test-method status="PASS" signature="testCEmptyComents()[pri:0, instance:Demo.toSendKudos@7fc2413d]" name="testCEmptyComents" duration-ms="41190" started-at="2021-10-20T13:54:10Z" finished-at="2021-10-20T13:54:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCEmptyComents -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Demo.toSendKudos@7fc2413d]" name="closeBrowser" is-config="true" duration-ms="133" started-at="2021-10-20T13:27:23Z" finished-at="2021-10-20T13:27:23Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Demo.toSendKudos@7fc2413d]" name="closeBrowser" is-config="true" duration-ms="159" started-at="2021-10-20T13:54:51Z" finished-at="2021-10-20T13:54:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Demo.toSendKudos -->
     </test> <!-- TestSend -->
-    <test name="TestActivity" duration-ms="33631" started-at="2021-10-20T07:57:23Z" finished-at="2021-10-20T07:57:57Z">
+    <test name="TestActivity" duration-ms="39263" started-at="2021-10-20T08:24:51Z" finished-at="2021-10-20T08:25:31Z">
       <class name="Demo.OtherActivity">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="initialize" is-config="true" duration-ms="12654" started-at="2021-10-20T13:27:23Z" finished-at="2021-10-20T13:27:36Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="initialize" is-config="true" duration-ms="15080" started-at="2021-10-20T13:54:51Z" finished-at="2021-10-20T13:55:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="TSix()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="TSix" duration-ms="986" started-at="2021-10-20T13:27:36Z" finished-at="2021-10-20T13:27:37Z">
+        <test-method status="PASS" signature="TSix()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="TSix" duration-ms="1967" started-at="2021-10-20T13:55:06Z" finished-at="2021-10-20T13:55:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TSix -->
-        <test-method status="PASS" signature="tSixofFour()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="tSixofFour" duration-ms="29" started-at="2021-10-20T13:27:37Z" finished-at="2021-10-20T13:27:37Z">
+        <test-method status="PASS" signature="tSixofFour()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="tSixofFour" duration-ms="37" started-at="2021-10-20T13:55:08Z" finished-at="2021-10-20T13:55:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tSixofFour -->
-        <test-method status="PASS" signature="tSixofThree()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="tSixofThree" duration-ms="1644" started-at="2021-10-20T13:27:37Z" finished-at="2021-10-20T13:27:39Z">
+        <test-method status="PASS" signature="tSixofThree()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="tSixofThree" duration-ms="3451" started-at="2021-10-20T13:55:08Z" finished-at="2021-10-20T13:55:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tSixofThree -->
-        <test-method status="PASS" signature="tSixofTwo()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="tSixofTwo" duration-ms="856" started-at="2021-10-20T13:27:39Z" finished-at="2021-10-20T13:27:40Z">
+        <test-method status="PASS" signature="tSixofTwo()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="tSixofTwo" duration-ms="985" started-at="2021-10-20T13:55:12Z" finished-at="2021-10-20T13:55:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tSixofTwo -->
-        <test-method status="PASS" signature="testCSelfkudos()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="testCSelfkudos" duration-ms="17296" started-at="2021-10-20T13:27:40Z" finished-at="2021-10-20T13:27:57Z">
+        <test-method status="PASS" signature="testCSelfkudos()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="testCSelfkudos" duration-ms="17652" started-at="2021-10-20T13:55:13Z" finished-at="2021-10-20T13:55:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCSelfkudos -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="closeBrowser" is-config="true" duration-ms="164" started-at="2021-10-20T13:27:57Z" finished-at="2021-10-20T13:27:57Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Demo.OtherActivity@7d3a22a9]" name="closeBrowser" is-config="true" duration-ms="89" started-at="2021-10-20T13:55:31Z" finished-at="2021-10-20T13:55:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Demo.OtherActivity -->
     </test> <!-- TestActivity -->
-    <test name="TestRecent" duration-ms="18597" started-at="2021-10-20T07:57:57Z" finished-at="2021-10-20T07:58:16Z">
+    <test name="TestRecent" duration-ms="16566" started-at="2021-10-20T08:25:31Z" finished-at="2021-10-20T08:25:47Z">
       <class name="Demo.recentKudosTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Demo.recentKudosTest@7f1302d6]" name="initialize" is-config="true" duration-ms="13516" started-at="2021-10-20T13:27:57Z" finished-at="2021-10-20T13:28:11Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Demo.recentKudosTest@7f1302d6]" name="initialize" is-config="true" duration-ms="13959" started-at="2021-10-20T13:55:31Z" finished-at="2021-10-20T13:55:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="tFive()[pri:0, instance:Demo.recentKudosTest@7f1302d6]" name="tFive" duration-ms="913" started-at="2021-10-20T13:28:11Z" finished-at="2021-10-20T13:28:11Z">
+        <test-method status="PASS" signature="tFive()[pri:0, instance:Demo.recentKudosTest@7f1302d6]" name="tFive" duration-ms="2491" started-at="2021-10-20T13:55:45Z" finished-at="2021-10-20T13:55:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tFive -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Demo.recentKudosTest@7f1302d6]" name="closeBrowser" is-config="true" duration-ms="4167" started-at="2021-10-20T13:28:11Z" finished-at="2021-10-20T13:28:16Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Demo.recentKudosTest@7f1302d6]" name="closeBrowser" is-config="true" duration-ms="116" started-at="2021-10-20T13:55:47Z" finished-at="2021-10-20T13:55:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

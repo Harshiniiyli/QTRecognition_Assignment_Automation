@@ -18,6 +18,10 @@ import BasicPackage.BaseMain;
 
 public class ToTestLoginPage extends BaseMain {
 
+	/*
+	 * To initialize the browser driver
+	 * 
+	 */
 	@BeforeTest
 	public void initialize() throws IOException {
 		driver = initializingDRiver();
@@ -25,10 +29,14 @@ public class ToTestLoginPage extends BaseMain {
 
 	}
 
+	/*
+	 * Test case to login with wrong username or password
+	 * Test case to check the colors of the page
+	 */
 	@Test
 	public void testInvalid() throws InterruptedException {
 		driver.get(prop.getProperty("url"));
-		// test gold
+		//Check for gold color
 		String colourGold = driver.findElement(By.xpath("//div[@class='myHeading']")).getCssValue("background-color");
 		String c = Color.fromString(colourGold).asHex();
 		System.out.println(c);
@@ -37,10 +45,6 @@ public class ToTestLoginPage extends BaseMain {
 				.getCssValue("background-color");
 		String c1 = Color.fromString(colourNavyBlue).asHex();
 		System.out.println(c1);
-		// Test white
-		String colourwhite = driver.findElement(By.xpath("//div[@class='container']/form")).getCssValue("color");
-		String c2 = Color.fromString(colourwhite).asHex();
-		System.out.println(c2);
 
 		String username = "harshini.iyli@qualitestgroup.com";
 		String pwd = "P@ssw";
@@ -57,6 +61,10 @@ public class ToTestLoginPage extends BaseMain {
 
 	}
 
+	/*
+	 * Testcase to login to the website
+	 * 
+	 */
 	@Test
 	public void testOne() throws IOException {
 

@@ -27,6 +27,10 @@ public class toSendKudos extends BaseMain{
 
 	}
 	
+	/*
+	 * To send kudos from activity page
+	 * 
+	 */
 	//@Test
 	public void testAThree() throws IOException, InterruptedException {
 		driver.get(prop.getProperty("url"));
@@ -43,6 +47,7 @@ public class toSendKudos extends BaseMain{
 		sendkudos.enterEmail().sendKeys(Ename);
 		Thread.sleep(3000);
 		WebElement down=sendkudos.enterfullemail();
+		
 		down.sendKeys(Keys.ARROW_DOWN,Keys.RETURN);
 		down.sendKeys(Keys.ENTER);
 
@@ -74,6 +79,10 @@ public class toSendKudos extends BaseMain{
 	Thread.sleep(3000);
 	}
 	
+	/*
+	 * Testcase to send multiple kudos type
+	 * 
+	 */
 	//@Test
 	public void testBMultiplekudos() throws InterruptedException {
 		
@@ -133,6 +142,11 @@ public class toSendKudos extends BaseMain{
 		System.out.println("This test is wrong it selects multiple kudos");
 	}
 	
+	
+	/*
+	 * Testcase to send kudos with no comment
+	 * 
+	 */
 	@Test
 	public void testCEmptyComents() throws InterruptedException {
 		

@@ -16,7 +16,10 @@ import PkgForObject.SendKudosPage;
 
 public class recentKudosTest extends BaseMain{
 
-	
+	/*
+	 * to initialize browser
+	 * 
+	 */
 	@BeforeTest
 	public void initialize() throws IOException
 	{
@@ -31,6 +34,10 @@ public class recentKudosTest extends BaseMain{
 
 	}
 	
+	/*Testcase to send kudos from recent tab
+	 * 
+	 * 
+	 */
 	@Test
 	public void tFive() {
 
