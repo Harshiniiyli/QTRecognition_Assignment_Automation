@@ -1,0 +1,7 @@
+22:37:34.491 [main] INFO  Demo.ToTestLoginPage - Login successful
+22:38:00.345 [main] INFO  Demo.ToDisplayTest - Username and profile :Displayed 
+22:38:33.202 [main] INFO  Demo.toSearchKudosTest - Kudos search is successful
+22:39:13.626 [main] INFO  Demo.toSendKudos - Kudos sent successfully
+22:39:46.326 [main] ERROR Demo.toSendKudos - Multiple kudos type selected : Failure
+22:39:46.327 [main] ERROR Demo.toSendKudos - Email not sent : Failure
+22:40:19.674 [main] INFO  Demo.toSendKudos - Please add comments : working properly 

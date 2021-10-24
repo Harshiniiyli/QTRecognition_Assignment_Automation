@@ -1,0 +1,6 @@
+22:40:36.066 [main] INFO  Demo.OtherActivity - Harshini has sent an appreciation : Kudos from me
+22:40:38.091 [main] INFO  Demo.OtherActivity - Activity page working properly : Kudos displayed
+22:40:39.022 [main] INFO  Demo.OtherActivity - Harshini has received an appreciation : Kudos to me 
+22:40:51.407 [main] ERROR Demo.OtherActivity - Kudos sent to oneself : error
+22:40:59.946 [main] INFO  Demo.OtherActivity - Kudos count updated :14
+22:41:21.482 [main] INFO  Demo.recentKudosTest - Kudos sent from recent contacts : working
