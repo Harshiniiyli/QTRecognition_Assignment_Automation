@@ -1,0 +1,6 @@
+09:15:58.479 [main] INFO  Demo.toSendKudos - Please add comments : working properly 
+09:16:13.361 [main] INFO  Demo.OtherActivity - Harshini has sent an appreciation : Kudos from me
+09:16:15.231 [main] INFO  Demo.OtherActivity - Activity page working properly : Kudos displayed
+09:16:16.198 [main] INFO  Demo.OtherActivity - Harshini has received an appreciation : Kudos to me 
+09:16:28.286 [main] ERROR Demo.OtherActivity - Kudos sent to oneself : error
+09:16:36.380 [main] INFO  Demo.OtherActivity - Kudos count updated :18
